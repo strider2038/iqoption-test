@@ -1,0 +1,23 @@
+.comment__bullet {
+    color: #999;
+}
+.comment__margin {
+    margin-left: 40px;
+}
+.comment {
+    position: relative;
+}
+.comment .comment__actions-edit {
+    display: none;
+}
+.comment.comment_editable .comment__actions-edit {
+    display: block;
+}
+.comment.comment_editable .comment__actions-default {
+    display: none;
+}
+.comment__toggle-tree {
+    position: absolute;
+    left: -24px;
+    bottom: 10px;
+}
