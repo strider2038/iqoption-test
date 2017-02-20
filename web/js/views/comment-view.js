@@ -112,7 +112,7 @@ CommentView.prototype.setEditMode = function($container, editable) {
  */
 CommentView.prototype.renderContent = function($container, content) {
     var $content = $container.find(this.selectors.content + ':first');
-    $content.text(content);
+    $content.html(content);
     return this;
 };
 
